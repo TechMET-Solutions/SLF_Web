@@ -12,33 +12,33 @@ import {
 } from 'lucide-react';
 
 function ContactUs() {
-  const contactMethods = [
-    {
-      icon: <Phone className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
-      title: "Call Us",
-      detail: "Toll Free: 1800-123-4567",
-      subDetail: "Available 24/7",
-    },
-    {
-      icon: <Mail className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
-      title: "Email Us",
-      detail: "info@slunawatfinance.com",
-      subDetail: "Response within 24 hours",
-    },
-    {
-      icon: <Clock className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
-      title: "Business Hours",
-      detail: "Mon - Sat: 9:00 AM - 6:00 PM",
-      subDetail: "Sunday: Closed",
-    },
-  ];
+  // const contactMethods = [
+  //   {
+  //     icon: <Phone className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
+  //     title: "Call Us",
+  //     detail: "Toll Free: 1800-123-4567",
+  //     subDetail: "Available 24/7",
+  //   },
+  //   {
+  //     icon: <Mail className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
+  //     title: "Email Us",
+  //     detail: "info@slunawatfinance.com",
+  //     subDetail: "Response within 24 hours",
+  //   },
+  //   {
+  //     icon: <Clock className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />,
+  //     title: "Business Hours",
+  //     detail: "Mon - Sat: 9:00 AM - 6:00 PM",
+  //     subDetail: "Sunday: Closed",
+  //   },
+  // ];
 
   return (
     <>
       <PageHero badge="Get in Touch" heading="Contact Us" subtext="Have questions? We're here to help! Reach out to us through any of the channels below." />
 
       {/* Contact Cards */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 lg:px-16">
+      {/* <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 lg:px-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {contactMethods.map((method, index) => (
             <div
@@ -63,7 +63,7 @@ function ContactUs() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Branch + Form */}
       <section className="py-12 sm:py-16 px-4 sm:px-6 md:px-10 lg:px-16 max-w-6xl mx-auto">

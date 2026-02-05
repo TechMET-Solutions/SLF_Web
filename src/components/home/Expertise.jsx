@@ -1,5 +1,4 @@
 import {
-    Banknote,
     Handshake,
     LockKeyholeOpen,
     Percent,
