@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from '../ui/Button';
 import Logo from '../../assets/logo.png';
 
 const Header = () => {
@@ -26,11 +25,6 @@ const Header = () => {
                 <NavLink to="/about" className={linkStyle}>About Us</NavLink>
                 <NavLink to="/contact" className={linkStyle}>Contact Us</NavLink>
             </nav>
-
-            {/* CTA Button */}
-            <div className="hidden md:block">
-                <Button>Apply Now</Button>
-            </div>
         </header>
     );
 };

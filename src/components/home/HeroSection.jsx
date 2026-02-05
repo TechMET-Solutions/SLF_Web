@@ -18,14 +18,7 @@ const HeroSection = () => {
                         Fast disbursal, no hidden charges, and complete safety.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold hover:bg-slate-800 transition-all">
-                            Apply Now
-                        </button>
-                        <button className="border-2 border-slate-900 text-slate-900 px-8 py-4 rounded-full font-bold hover:bg-slate-50 transition-all">
-                            Check Eligibility
-                        </button>
-                    </div>
+                    
                 </div>
 
                 {/* Right Image Column */}
