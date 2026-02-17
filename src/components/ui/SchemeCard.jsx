@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 
 export const SchemeCard = ({ title, icon: Icon, features }) => (
-    <div className="bg-white rounded-2xl p-5 sm:p-6 md:p-8 border border-yellow-100 shadow-sm flex flex-col h-full hover:shadow-md transition-all duration-300">
+    <div className="bg-white rounded-2xl p-5 sm:p-6 md:p-8 border border-yellow-100 shadow-sm flex flex-col h-full hover:shadow-lg transition-all duration-300 ">
         {/* Header */}
         <div className="flex justify-between items-start mb-4 sm:mb-5 md:mb-6 gap-3">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-800 leading-snug sm:leading-tight max-w-[140px] sm:max-w-[160px] md:max-w-[180px]">
